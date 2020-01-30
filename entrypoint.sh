@@ -13,13 +13,13 @@ function display_help() {
 
 function test_parameters() {
     if [[ -z "${component}" ]]; then
-        echo "Please specify component name.
+        echo "Please specify component name"
         display_help
         exit 1
     fi
 
     if [[ -z "${component}" ]]; then
-        echo "Please specify component name.
+        echo "Please specify component name"
         display_help
         exit 1
     fi
